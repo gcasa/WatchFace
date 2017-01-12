@@ -4,17 +4,21 @@
     "keywords": [],
     "name": "watchface",
     "pebble": {
+        "capabilities": [
+            "location"
+        ],
         "displayName": "WatchFace",
         "enableMultiJS": false,
-        "messageKeys": [],
+        "messageKeys": [
+            "TEMPERATURE[8]",
+            "CONDITIONS[32]"
+        ],
         "projectType": "native",
         "resources": {
             "media": []
         },
         "sdkVersion": "3",
         "targetPlatforms": [
-            "aplite",
-            "basalt",
             "chalk"
         ],
         "uuid": "6daf29d6-c4cf-433a-aa4e-65dc2ff7bda6",
