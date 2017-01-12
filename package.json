@@ -1,0 +1,26 @@
+{
+    "author": "Pebble",
+    "dependencies": {},
+    "keywords": [],
+    "name": "watchface",
+    "pebble": {
+        "displayName": "WatchFace",
+        "enableMultiJS": false,
+        "messageKeys": [],
+        "projectType": "native",
+        "resources": {
+            "media": []
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk"
+        ],
+        "uuid": "6daf29d6-c4cf-433a-aa4e-65dc2ff7bda6",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}
